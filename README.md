@@ -4,6 +4,7 @@ Sparklecoind docker image.
 
 ## Supported tags and respective `Dockerfile` links
 - `1.1.1` ([1.1.1/Dockerfile](https://github.com/sparklecoin/docker-sparklecoind/blob/master/1.1.1/Dockerfile))
+- `1.1.2` ([1.1.2/Dockerfile](https://github.com/sparklecoin/docker-sparklecoind/blob/master/1.1.2/Dockerfile))
 
 ## Usage
 ### How to use this image
@@ -49,7 +50,7 @@ will mount current directory in containers `~/.sparklecoin`
 To map container RPC ports to localhost start container with following command:
 
 ```sh
-$ docker run -v /opt/sparklecoin:/home/coin/.sparklecoin -p 6020:6020 -p 6021:6021 -p 16020:16020 -p 16021:16021 --name sparklecoind -d sparklecoin/sparklecoind -rpcallowip=* testnet
+$ docker run -v /opt/sparklecoin:/home/coin/.sparklecoin -p 6020:6020 -p 6021:6021 -p 16020:16020 -p 16021:16021 --name sparklecoind-testnet -d sparklecoin/sparklecoind -rpcallowip=* -testnet
 ```
 You may want to change the port that it is being mapped to if you already run a sparklecoin instance on the localhost.
 For example: `-p 9999:16021` will map port 16021 from container to localhost:9999.
