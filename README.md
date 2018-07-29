@@ -5,6 +5,7 @@ Sparklecoind docker image.
 ## Supported tags and respective `Dockerfile` links
 - `1.1.1` ([1.1.1/Dockerfile](https://github.com/sparklecoin/docker-sparklecoind/blob/master/1.1.1/Dockerfile))
 - `1.1.2` ([1.1.2/Dockerfile](https://github.com/sparklecoin/docker-sparklecoind/blob/master/1.1.2/Dockerfile))
+- `1.2.0` ([1.2.0/Dockerfile](https://github.com/sparklecoin/docker-sparklecoind/blob/master/1.2.0/Dockerfile))
 
 ## Usage
 ### How to use this image
